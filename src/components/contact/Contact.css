@@ -1,0 +1,120 @@
+.contact-section{
+    padding: 2rem 0;
+    background-color: #2B114F;
+    color: rgb(255, 255, 255);
+}
+.contact-main{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .form{
+    display: flex;
+    flex-direction: row;
+} */
+ .lineE{
+    height:220px;
+    margin: 0 auto;
+    width:2px;
+    background: #ffffff;
+    opacity: 0.4;
+ }
+ 
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0.8rem;
+}
+.para-First,.description{
+    
+    color: gray;
+ 
+    }
+    .nameContactIntro{
+      
+        font-size: 1rem;
+        font-weight: 600;
+        color: white;
+       
+    }
+.inputValue,.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+   
+    
+}
+
+    input, textarea{
+        padding: 0.4rem;
+        width: 100%;
+        border-radius: 0.3rem;
+        border: none;
+        outline: none;
+        background: white;
+        margin-bottom: 0.5rem;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+        flex: 1;
+    }
+    .btn-form{
+        
+        margin:0.3rem auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+background: none;
+color: white;
+padding: 5px 4px;
+border: 2px solid white;
+border-radius: 0.4rem;
+
+    }
+    .btn-form:hover{
+        background: rgba(66, 10, 66, 0.501);
+       
+    }
+    .Phone ,.Address,.email{
+        display: flex;
+        padding: 10px;
+        width: 50%;
+        border-radius: 0.7rem;
+        background-color: white;
+        color: black;
+        margin-bottom: 0.7rem;
+       
+    }
+    .phone-number,.emailText{
+        
+      color: black;
+        text-decoration: none;
+    }
+    .icon-name{
+        margin-right: 6px;
+    }
+    @media (max-width:1000px){
+        .information{
+            font-size: 12px;
+        }
+    }
+    @media (max-width:700px){
+        .information,.inputValue{
+           
+            font-size: 8px;
+        }
+    }

@@ -1,6 +1,6 @@
 import React from "react";
 import Image1 from '../../assets/hero1.png'
-import Image2 from '../../assets/hero2.png'
+
 import Image3 from '../../assets/heroZigzag.png'
 import { Typewriter } from "react-simple-typewriter";
 import "./Hero.css";
@@ -12,7 +12,7 @@ const Hero = () => {
       <Wrapper>
         <div className="hero-main">
             <img className="image-1" src={Image1} alt="" />
-            <img className="image-2" src={Image2} alt="" />
+            
             <img className="image-3" src={Image3} alt="" />
           <div className="intro">
             <p className="para-First">Hi my name is <br/> <span className="nameIntro">

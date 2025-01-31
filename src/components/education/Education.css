@@ -1,0 +1,38 @@
+.education-main{
+    padding: 2rem 0;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    gap:2rem;
+   
+}
+.ForLine{
+    width: 40%;
+}
+.line{
+    width: 2px;
+    height:35px ;
+    background: #ffffff;
+    margin: 0 auto ;
+}
+.educationTag{
+    /* width: 100%; */
+    /* flex: 1; */
+display: flex;
+flex-direction: column;
+gap: 0.6rem;
+font-size: 1.1rem;
+justify-content: center;
+align-items: center;
+    /* text-align: center; */
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+    background-color: #2B114F;
+  margin-bottom:1rem;
+  
+}

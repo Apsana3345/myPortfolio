@@ -2,15 +2,18 @@
    
     height: 5rem;
     color: white;
-    padding: 10px 0;
+    padding: 2rem 0;
     /* display: flex; */
     align-items: center;
+    
 }
 .footer-main{
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 .footer-link{
     text-decoration: none;
@@ -20,7 +23,7 @@
 .footer-section{
     display: flex;
     gap: 1rem;
-    
+   
 }
 .footer-line{
     width:100%;
@@ -31,6 +34,7 @@
 
 .footer-para{
     color: rgb(214, 213, 213);
+    margin-bottom: 1rem;
 }
 @media (max-width:600px){
     .footer-section{

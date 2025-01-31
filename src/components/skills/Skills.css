@@ -1,16 +1,25 @@
 .skills-main {
+    position: relative;
   padding: 2rem 0;
+  /* background: #96a0ad25; */
+}
+.image-2{
+scale: 0.7;
+   top:0;
+   left: 36rem;
 }
 .skill-title {
-  font-size: 2rem;
-
+  font-size: 2.5rem;
+display: flex;
+justify-content: center;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .skill-card {
   display: flex;
-
+  
+  /* background-color: ; */
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
@@ -20,18 +29,32 @@
 .skill {
   display: flex;
   align-items: center; 
-  justify-content: center; 
-  gap: 10px;
-  flex: 1;
-  background: rgba(83, 77, 77, 0.63);
-  padding: 0.5rem 0.5rem;
+  justify-content: center;
+  flex-direction: column; 
+  /* display: grid; */
+  background-color: #2B114F;
+  border-radius: 100%;
+  /* grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); */
+  gap: 15px;
+  /* flex: 1; */
+  /* place-content: center;
+  place-items: center; */
+  /* background: #96a0ad5b; */
+  padding: 1rem ;
 
-  border-radius: 0.7rem;
+  /* border-radius: 0.7rem; */
   
 }
 
 
 
 .skill-icon {
-  font-size: 3rem;
+  font-size: 4rem;
+}
+@media (max-width:1200px){
+    .image-2{
+        scale: 0.7;
+           top:0;
+           left: 6rem;
+        }
 }
