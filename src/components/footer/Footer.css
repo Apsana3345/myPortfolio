@@ -1,5 +1,5 @@
 .footer{
-    background-color:#222235;
+   
     height: 5rem;
     color: white;
     padding: 10px 0;
@@ -28,10 +28,7 @@
    
     border: 1px solid gray;
 }
-.footer-link{
-    font-size: 1rem;
-    
-}
+
 .footer-para{
     color: rgb(214, 213, 213);
 }
@@ -39,5 +36,9 @@
     .footer-section{
 
         gap:8px;
+    }
+    .footer-link{
+        font-size: 1rem;
+        
     }
 }

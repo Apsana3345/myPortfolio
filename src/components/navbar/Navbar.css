@@ -1,13 +1,18 @@
 .navbar{
     height: 3rem;
     display: flex;
-    padding: 10px 0;
+    padding: 1.5rem 0;
     align-items: center;
   color: white;
-    background-color:#222235;
+  
+    border-bottom: 2px solid gray;
+    
+   
 }
 .container-nav{
     width: 100%;
+    
+    
 }
 .nav-main{
     

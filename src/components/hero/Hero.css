@@ -1,0 +1,61 @@
+.hero-section{
+    padding: 10rem 0;
+    
+    color: rgb(255, 255, 255);
+}
+
+.hero-main{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.image-1,.image-2,.image-3{
+    position: absolute;
+    
+}
+.image-3{
+    top:-4rem;
+    left:3rem
+}
+.image-1{
+    top:-6rem;
+    right:0;
+
+}
+.image-2{
+    bottom: -8rem;
+   left: 15rem;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+}
+.nameIntro{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+   
+}
+.para-First,.description{
+color: gray;
+}
+.para-intro{
+    font-size: 1.5rem;
+    
+}
+
+
+
+.heroImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.imageApsana{
+    border-radius: 1.3rem;
+
+}

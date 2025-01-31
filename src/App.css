@@ -9,5 +9,7 @@
 html,body{
 min-height: 100%;
 font-family: "Inter", serif;
+background:linear-gradient(to right, #080823 2%, #23013ff6 100%);
+color: white;
 
 }

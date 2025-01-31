@@ -7,8 +7,8 @@ export const NavListConstant=[
 },
 {
     id:2,
-    link:"/about",
-    label:"About",
+    link:"/skills",
+    label:"Skills",
 },
 {
     id:3,
