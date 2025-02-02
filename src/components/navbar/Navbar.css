@@ -8,7 +8,8 @@
   top: 0;
   border-bottom: 2px solid gray;
   z-index: 100;
-  background: linear-gradient(to right, #080823 2%, #23013ff6 100%);
+  /* background: linear-gradient(to right, #080823 2%, #23013ff6 100%); */
+  backdrop-filter:blur(60px) ;
 }
 .container-nav {
   width: 100%;
