@@ -1,78 +1,70 @@
-.navbar{
-    height: 3rem;
-    display: flex;
-    padding: 2.2rem 0;
-    align-items: center;
+.navbar {
+  height: 3rem;
+  display: flex;
+  padding: 2.2rem 0;
+  align-items: center;
   color: white;
   position: sticky;
-  top:0;
-    border-bottom: 2px solid gray;
-    z-index: 100;
-    background:linear-gradient(to right, #080823 2%, #23013ff6 100%); ;
-   
+  top: 0;
+  border-bottom: 2px solid gray;
+  z-index: 100;
+  background: linear-gradient(to right, #080823 2%, #23013ff6 100%);
 }
-.container-nav{
-    width: 100%;
-    
-    
+.container-nav {
+  width: 100%;
 }
-.nav-main{
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo-title{
-color: rgba(255, 255, 255, 0.974);
-font-size: 2rem;
+.logo-title {
+  color: rgba(255, 255, 255, 0.974);
+  font-size: 2rem;
+}
+.logo-end {
+  color: #642d92fd;
+}
+.navList {
+  display: flex;
+  gap: 1.5rem;
+  z-index: 200;
+  position: relative;
+}
+.resume-btn {
+  padding: 3px 10px;
+  border-radius: 4px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.2rem;
+}
 
+.hamburger-menu {
+  display: none;
 }
-.logo-end{
-    color:#642d92fd;
+@media (min-width: 725px) {
+  .navList {
+    display: flex !important; /* Force it to be visible */
+  }
 }
-.navList{
-    display: flex;
-    gap: 1.5rem;
-    z-index: 200;
-    position: relative;
-}
-.resume-btn{
-    padding: 3px 10px;
-    border-radius: 4px;
-    background: none;
-    border: 2px solid white;
-    color:white;
-    font-size: 1.2rem;
-}
-
-.hamburger-menu{
+@media (max-width: 724px) {
+  .logo-title {
+    font-size: 1.7rem;
+  }
+  .navList,
+  .resume-btn {
     display: none;
-}
-@media (min-width: 725px) { 
-    .navList {
-        display: flex !important;  /* Force it to be visible */
-    }
-}
-@media (max-width:724px){
-    .logo-title{
-        font-size: 1.7rem;
-    }
-    .navList, .resume-btn{
-        display: none;
-    }
-    .footer-para{
-        font-size: 10px;
-    }
-    .hamburger-menu{
-        display: block;
+  }
+  .footer-para {
+    font-size: 10px;
+  }
+  .hamburger-menu {
+    display: block;
+  }
 
-    }
-    
-        .navList{
-            flex-direction: column ;
-        }
-    
+  .navList {
+    flex-direction: column;
+  }
 }

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
 import Layout from "./components/layout/Layout";
 import Hero from "./components/hero/Hero";
 import Skills from "./components/skills/Skills";
@@ -15,19 +14,18 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 3000); // Simulates loading time
+    }, 3000);
   }, []);
 
-
   return loading ? (
-    <Loader/>
-  ) :  (
+    <Loader />
+  ) : (
     <Layout>
       <Hero />
       <Skills />
       <Education />
-     <Project/>
-     <Contact/>
+      <Project />
+      <Contact />
     </Layout>
   );
 };

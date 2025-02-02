@@ -7,7 +7,7 @@ import Hamburger from "../smallComponent/hamburger/Hamburger";
 const Navbar = () => {
   return (
     <nav className="navbar" >
-      <div className="container-nav">
+      <div className="container-nav" >
         <Wrapper>
           <div className="nav-main">
             <section className="nav-logo">

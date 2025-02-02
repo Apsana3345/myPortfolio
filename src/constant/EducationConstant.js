@@ -20,8 +20,6 @@ school:"Galaxy E.B High School"
     course:"Bsc CSIT",
     batch:"2077 - present",
     school:"Butwal Multiple Campus "
-    
-    
     }
 
 ]

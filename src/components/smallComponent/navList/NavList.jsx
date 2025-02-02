@@ -1,26 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { NavListConstant } from "../../../constant/NavConstant";
 import "./NavList.css";
 const NavList = ({setOpen}) => {
+  const [activeLink, setActiveLink] = useState(null);
+  const handleClick = (id) => {
+    setActiveLink(id);
+    if (window.innerWidth <= 724) {
+      setOpen(false); 
+    }
+  };
   return (
     <>
       {
-
-// onClick={()=>setOpen(false)}
         NavListConstant.map((item) => (
           <Link 
-          
-          onClick={() => {
-            if (window.innerWidth <= 724) { // Adjust breakpoint as needed
-              setOpen(false);
-            }
-          }}
-          
-          key={item.id} to={item.link} smooth={true} duration={500} className="navLink">
+          className={`navLink ${activeLink === item.id ? "active" : ""}`} // Apply active class
+          onClick={() => handleClick(item.id)} 
+          key={item.id} to={item.link} smooth={true} duration={500} >
             {item.label}
           </Link>
-        )) //control space
+        )) 
       }
     </>
   );

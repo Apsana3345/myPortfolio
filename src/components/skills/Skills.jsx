@@ -10,11 +10,10 @@ const Skills = () => {
 <img className="image-2" src={Image2} alt="" />
       <Wrapper>
         <p className="skill-title">Skills</p>
-        <div className="skill-card">
+        <div className="skill-card" >
           {skillsList.map((item) => (
             <div className="skill" key={item.id}>
               <Icon className="skill-icon" icon={item.icon} />
-              {/* <p>{item.Label}</p> */}
             </div>
           ))}
         </div>

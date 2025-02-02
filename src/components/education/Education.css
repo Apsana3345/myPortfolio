@@ -1,77 +1,60 @@
-.education-main{
-    padding: 2rem 0;
-    background-color: #2b114f59;
+.education-main {
+  padding: 5rem 0;
+  background-color: #2b114f59;
 }
-.education{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* justify-content: center;
-    align-items: center; */
-    gap:2rem;
-   
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
 }
-.ForLine{
-    width: 40%;
+.ForLine {
+  width: 40%;
 }
-.line{
-    width: 2px;
-    height:35px ;
-    background: #ffffff;
-    margin: 0 auto ;
+.line {
+  width: 2px;
+  height: 35px;
+  background: #ffffff;
+  margin: 0 auto;
 }
-.educationTag{
-    
-display: flex;
-flex-direction: column;
-gap: 0.6rem;
-font-size: 1.1rem;
-justify-content: center;
-align-items: center;
-    /* text-align: center; */
+.educationTag {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 1.1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  background-color: #2b114f;
+  margin-bottom: 1rem;
+}
+.para-school {
+  color: rgba(157, 151, 151, 0.519);
+}
+@media (max-width: 800px) {
+  .ForLine {
+    width: 70%;
+  }
+  .educationTag {
+    text-align: center;
     padding: 0.7rem;
     border-radius: 0.7rem;
-    background-color: #2B114F;
-  margin-bottom:1rem;
-  
+    background-color: #2b114f;
+    margin-bottom: 1rem;
+  }
 }
-.para-school{
-    color: rgba(157, 151, 151, 0.519);
-}
-@media(max-width:800px){
-
-    .ForLine{
-        width: 70%;
-    }
-    .educationTag{
-      
-   
-        text-align: center;
-        padding: 0.7rem;
-        border-radius: 0.7rem;
-        background-color: #2B114F;
-      margin-bottom:1rem;
-      
-    }
-
-
-}
-@media(max-width:600px){
-
-    .ForLine{
-        width: 90%;
-    }
-    .educationTag{
-      
-   
-        text-align: center;
-        padding: 0.7rem;
-        border-radius: 0.7rem;
-        background-color: #2B114F;
-      margin-bottom:1rem;
-      
-    }
-
-
+@media (max-width: 600px) {
+  .ForLine {
+    width: 90%;
+  }
+  .educationTag {
+    text-align: center;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+    background-color: #2b114f;
+    margin-bottom: 1rem;
+  }
 }

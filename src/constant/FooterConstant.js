@@ -2,7 +2,7 @@ export const FooterList = [
   {
     id: 1,
     link: "https://github.com/Apsana3345",
-    icon: "mdi:github", //react-iconify
+    icon: "mdi:github", 
   },
   {
     id: 2,
@@ -21,6 +21,5 @@ export const FooterList = [
     link: "/",
     icon: "mdi:facebook",
   }
-
 
 ];

@@ -11,17 +11,17 @@ export const NavListConstant=[
     label:"Skills",
 },
 {
-    id:2,
+    id:3,
     link:"education",
     label:"Education",
 },
 {
-    id:3,
+    id:4,
     link:"projects",
     label:"Projects",
 },
 {
-    id:4,
+    id:5,
     link:"contact",
     label:"Contact",
 }

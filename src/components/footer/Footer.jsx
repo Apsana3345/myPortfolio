@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <Wrapper>
-        <div className="footer-main">
+        <div className="footer-main"  >
           <section className="footer-section">
             {FooterList.map((item) => (
               <Link className="footer-link" key={item.id} to={item.link}>
