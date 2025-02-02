@@ -17,7 +17,10 @@ const Navbar = () => {
               <NavList />
             </section>
             <section>
-              <button className="resume-btn">Resume</button>
+              <button className="resume-btn">
+                <a href="https://drive.google.com/file/d/1KNTHjwPmsmBf79eK3vGa-JnlulWxrVCV/view?usp=drive_link">Resume</a>
+                
+                </button>
             </section>
             {/* For mobile device */}
             <section className="hamburger-menu">
