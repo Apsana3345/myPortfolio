@@ -38,6 +38,7 @@
 }
 .para-First,.description{
 color: gray;
+font-size: 1.2rem;
 }
 .para-intro{
     font-size: 1.5rem;
@@ -55,4 +56,53 @@ color: gray;
 .imageApsana{
     border-radius: 1.3rem;
 
+}
+@media (max-width:600px){
+    .hero-section{
+        
+        padding-bottom: 5rem ;
+        
+       
+    }
+    
+    .hero-main{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .imageApsana{
+        width: 60%;
+        height: 100%;
+    }
+
+
+
+    /* .intro{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        flex: 1;
+    } */
+    .nameIntro{
+        font-size:2rem;
+        font-weight: 600;
+        color: white;
+       
+    }
+    .para-First,.description{
+    color: gray;
+    font-size: 1rem;
+    }
+    .para-intro{
+        font-size: 1.2rem;
+        
+    }
+    
+}
+@media(max-width:450px){
+    .imageApsana{
+        width: 80%;
+        height: 100%;
+    }
 }

@@ -1,0 +1,9 @@
+.loader{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* background: white; */
+   height: 100vh;
+   
+}

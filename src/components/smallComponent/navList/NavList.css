@@ -1,8 +1,10 @@
 .navLink{
     text-decoration: none;
     color: white;
+    font-size: 1.2rem;
+    z-index: 200;
     /* margin-right: 1rem; */
 }
-.active{
+/* .active{
     text-decoration: underline;
-}
+} */

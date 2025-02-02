@@ -8,7 +8,7 @@ import Image from "../../assets/gitProfile.jpg"
 import Wrapper from "../layout/Wrapper";
 const Hero = () => {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="home">
       <Wrapper>
         <div className="hero-main">
             <img className="image-1" src={Image1} alt="" />

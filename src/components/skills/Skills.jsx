@@ -6,7 +6,7 @@ import { Icon } from "@iconify/react";
 import "./Skills.css";
 const Skills = () => {
   return (
-    <section className="skills-main">
+    <section className="skills-main" id="skills">
 <img className="image-2" src={Image2} alt="" />
       <Wrapper>
         <p className="skill-title">Skills</p>

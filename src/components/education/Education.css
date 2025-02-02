@@ -1,5 +1,6 @@
 .education-main{
     padding: 2rem 0;
+    background-color: #2b114f59;
 }
 .education{
     display: flex;
@@ -21,8 +22,7 @@
     margin: 0 auto ;
 }
 .educationTag{
-    /* width: 100%; */
-    /* flex: 1; */
+    
 display: flex;
 flex-direction: column;
 gap: 0.6rem;
@@ -35,4 +35,43 @@ align-items: center;
     background-color: #2B114F;
   margin-bottom:1rem;
   
+}
+.para-school{
+    color: rgba(157, 151, 151, 0.519);
+}
+@media(max-width:800px){
+
+    .ForLine{
+        width: 70%;
+    }
+    .educationTag{
+      
+   
+        text-align: center;
+        padding: 0.7rem;
+        border-radius: 0.7rem;
+        background-color: #2B114F;
+      margin-bottom:1rem;
+      
+    }
+
+
+}
+@media(max-width:600px){
+
+    .ForLine{
+        width: 90%;
+    }
+    .educationTag{
+      
+   
+        text-align: center;
+        padding: 0.7rem;
+        border-radius: 0.7rem;
+        background-color: #2B114F;
+      margin-bottom:1rem;
+      
+    }
+
+
 }

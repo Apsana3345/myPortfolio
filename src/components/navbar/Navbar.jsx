@@ -2,15 +2,16 @@ import React from "react";
 import "./Navbar.css";
 import Wrapper from "../layout/Wrapper";
 import NavList from "../smallComponent/navList/NavList";
-import Hamburger from "../smallComponent/hamburger/hamburger";
+import Hamburger from "../smallComponent/hamburger/Hamburger";
+
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar" >
       <div className="container-nav">
         <Wrapper>
           <div className="nav-main">
             <section className="nav-logo">
-              <h1 className="logo-title">A.SHARMA</h1>
+              <h1 className="logo-title">A.<span className="logo-end">Sharma</span></h1>
             </section>
             <section className="navList">
               <NavList />
@@ -20,7 +21,7 @@ const Navbar = () => {
             </section>
             {/* For mobile device */}
             <section className="hamburger-menu">
-              <Hamburger />
+              <Hamburger/>
             </section>
           </div>
         </Wrapper>

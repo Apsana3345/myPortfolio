@@ -4,7 +4,7 @@ import Image3 from "../assets/project/quiz-app.png";
 import Image4 from "../assets/project/TicToe.png";
 import Image5 from "../assets/project/todoList.png";
 import Image6 from "../assets/project/Weather-app.png";
-import Image7 from "../assets/project/calculator.png";
+// import Image7 from "../assets/project/calculator.png";
 
 export const ProjectList = [
   {
@@ -56,13 +56,13 @@ export const ProjectList = [
     description:"Find out the weather of your place. ",
     icon: "majesticons:link-line",
     link:"https://weather-app-mu-one-51.vercel.app/"
-  },
-  {
-    id: 7,
-    img:  Image7 ,
-    projectName:"Calculator ",
-    description:"Solve the Problems using this calculator.",
-    icon: "majesticons:link-line",
-    link:"https://calculator1-peach.vercel.app/"
-  },
+  }
+  // {
+  //   id: 7,
+  //   img:  Image7 ,
+  //   projectName:"Calculator ",
+  //   description:"Solve the Problems using this calculator.",
+  //   icon: "majesticons:link-line",
+  //   link:"https://calculator1-peach.vercel.app/"
+  // },
 ];

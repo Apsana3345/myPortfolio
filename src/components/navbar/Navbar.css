@@ -4,9 +4,11 @@
     padding: 2.2rem 0;
     align-items: center;
   color: white;
-  
+  position: sticky;
+  top:0;
     border-bottom: 2px solid gray;
-    
+    z-index: 100;
+    background:linear-gradient(to right, #080823 2%, #23013ff6 100%); ;
    
 }
 .container-nav{
@@ -25,13 +27,17 @@
 
 .logo-title{
 color: rgba(255, 255, 255, 0.974);
-font-size: 1.5rem;
+font-size: 2rem;
 
+}
+.logo-end{
+    color:#642d92fd;
 }
 .navList{
     display: flex;
-   
-    gap: 1rem;
+    gap: 1.5rem;
+    z-index: 200;
+    position: relative;
 }
 .resume-btn{
     padding: 3px 10px;
@@ -39,15 +45,20 @@ font-size: 1.5rem;
     background: none;
     border: 2px solid white;
     color:white;
+    font-size: 1.2rem;
 }
 
 .hamburger-menu{
     display: none;
 }
-
-@media (max-width:600px){
+@media (min-width: 725px) { 
+    .navList {
+        display: flex !important;  /* Force it to be visible */
+    }
+}
+@media (max-width:724px){
     .logo-title{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
     .navList, .resume-btn{
         display: none;
@@ -57,6 +68,7 @@ font-size: 1.5rem;
     }
     .hamburger-menu{
         display: block;
+
     }
     
         .navList{

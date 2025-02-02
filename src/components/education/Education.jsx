@@ -4,7 +4,7 @@ import { EducationList } from "../../constant/EducationConstant";
 import './Education.css'
 const Education = () => {
   return (
-    <section className="education-main">
+    <section className="education-main" id="education">
       <Wrapper>
         <p className="skill-title">Education</p>
         
@@ -15,7 +15,7 @@ const Education = () => {
             <div className="educationTag" key={item.id}>
               <p className="para">{item.course}</p>
               <p className="para">{item.batch}</p>
-              <p className="para">{item.school}</p>
+              <p className="para para-school">{item.school}</p>
             </div>
             {index < EducationList.length - 1 && <div className="line"></div>}
             </div>
