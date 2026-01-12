@@ -31,7 +31,7 @@ const Hero = () => {
                 />
               </span>
             </p>
-            <p className="description">Currently studying Bsc.Csit at Butwal Multiple Campus. Eager to learn, code and grow. </p>
+            <p className="description">Completed Bsc.Csit from Butwal Multiple Campus . Eager to learn, code and grow. </p>
           </div>
           <div className="heroImage">
             <img className="imageApsana" src={Image} width="300px" height="300px"></img>
