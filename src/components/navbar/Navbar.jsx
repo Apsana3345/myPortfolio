@@ -18,7 +18,7 @@ const Navbar = () => {
             </section>
             <section>
               <button className="resume-btn">
-                <a href="https://drive.google.com/file/d/1CH_MrH21zcPD4nGC1oaEvYh2CPRb0Id0/view?usp=sharing" target="_blank">Resume</a>
+                <a href="https://drive.google.com/file/d/1OwIgUQzd_x3fsGV1t0vHW1v7byarSuOT/view?usp=sharing" target="_blank">Resume</a>
                 
                 </button>
             </section>
